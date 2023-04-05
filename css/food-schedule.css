@@ -1,0 +1,152 @@
+.schedule-container {
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.day-box {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(255, 242, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    transition: all 0.3s ease;
+}
+
+.day-box:hover {
+    background-color: bisque;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.meal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.meal label {
+    font-size: 20px;
+    pointer-events: none;
+    flex: 1;
+}
+
+.meal input {
+    flex: 1;
+}
+
+.star-container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-container i {
+    font-size: 30px;
+    color: rgb(255, 196, 0);
+}
+
+.meal-info-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+
+.meal-info-container {
+    padding: 10px 20px;
+    margin-top: 100px;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+}
+
+.close-meal-info-button {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background-color: none;
+    border-style: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.close-meal-info-button i {
+    font-size: 25px;
+}
+
+.meal-info-container h1 {
+    font-size: 50px;
+}
+
+.meal-ingredient label {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.meal-time {
+    display: flex;
+}
+
+.meal-time i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-left: 10px;
+    color: grey;
+    transition: all 0.1s ease;
+}
+
+.meal-time i:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.meal-description {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    transition: all 0.1s ease;
+}
+
+.meal-info {
+    margin-bottom: 50px;
+}
+
+.achievement {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgb(255, 221, 161);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.achievement i {
+    font-size: 30px;
+    color: orange;
+}
+
+.achievement:hover {
+    transform: scale(1.2);
+}

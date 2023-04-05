@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/user-info-form.css">
+    <title>Prototype</title>
+</head>
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="form">
+                <div class="form-input-container">
+                    <label>อายุ</label>
+                    <input type="number">
+                </div>
+                <div class="form-input-container">
+                    <label>น้ำหนัก</label>
+                    <input type="number">
+                </div>
+                <div class="form-input-container">
+                    <label>ส่วนสูง</label>
+                    <input type="number">
+                </div>
+                <div class="form-input-container">
+                    <label>อาหารที่แพ้</label>
+                    <input type="text">
+                    <button type="button" onclick="addInput(this)" class="add-input-button">เพิ่ม</button>
+                </div>
+                <div class="form-input-container">
+                    <label>อาหารที่ชอบ</label>
+                    <input type="text">
+                    <button type="button" onclick="addInput(this)" class="add-input-button">เพิ่ม</button>
+                </div>
+                <a href="./food-schedule.html">
+                    <button type="button" class="form-button">
+                        สร้างตารางอาหาร
+                    </button>
+                </a>
+            </div>  
+        </div>
+    </div>
+    <script src="./js/user-info-form.js"></script>
+</body>
+</html>
